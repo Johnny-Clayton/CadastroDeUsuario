@@ -14,7 +14,6 @@ public class Main extends JFrame implements ActionListener {
     private JPasswordField passText;
     private JButton loginButton, registerButton;
 
-    // Mapa para armazenar os cadastros de usuários
     private Map<String, String> userMap = new HashMap<>();
     
     public static void main(String[] args) {
@@ -68,7 +67,6 @@ public class Main extends JFrame implements ActionListener {
         panel.add(loginButton);
         panel.add(registerButton);
 
-        // Adiciona a JPanel ao JFrame
         add(panel);
 
         // Configurações adicionais do JFrame
